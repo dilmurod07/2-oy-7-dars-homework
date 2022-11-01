@@ -1,0 +1,308 @@
+body {
+  background-color: blue;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 700px;
+  margin-right: 250px;
+}
+
+.birinci_ {
+  width: 200px;
+  height: 450px;
+  border-radius: 50px;
+  background-color: white;
+  margin-top: 55px;
+  -webkit-animation: birinci 0.6s linear infinite;
+          animation: birinci 0.6s linear infinite;
+}
+
+@-webkit-keyframes birinci {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+    height: 375px;
+  }
+}
+
+@keyframes birinci {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+    height: 375px;
+  }
+}
+.chiziq {
+  width: 105px;
+  height: 10px;
+  background-color: blue;
+  margin-left: 50px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.chiziq2 {
+  width: 105px;
+  height: 10px;
+  background-color: blue;
+  margin-left: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.chiziq3 {
+  width: 160px;
+  height: 150px;
+  margin-left: 20px;
+  border-radius: 50px 50px 10px 10px;
+  margin-top: 200px;
+  background-color: blue;
+  -webkit-animation: chiziq3 0.6s linear infinite;
+          animation: chiziq3 0.6s linear infinite;
+}
+
+@-webkit-keyframes chiziq3 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-62px);
+  }
+}
+
+@keyframes chiziq3 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-62px);
+  }
+}
+/*birinci end*/
+/*ikkinci start */
+.ikkinci {
+  width: 200px;
+  height: 500px;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-top: 30px;
+  -webkit-animation: ikkinci 0.65s linear infinite;
+          animation: ikkinci 0.65s linear infinite;
+}
+
+@-webkit-keyframes ikkinci {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-50px);
+    height: 450px;
+  }
+}
+
+@keyframes ikkinci {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-50px);
+    height: 450px;
+  }
+}
+.chiziq4 {
+  width: 110px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: blue;
+  margin-left: 45px;
+  margin-top: 25px;
+}
+
+.chiziq5 {
+  background-color: blue;
+  width: 110px;
+  height: 10px;
+  border-radius: 10px;
+  margin-left: 45px;
+  margin-top: 25px;
+}
+
+.chiziq6 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  border-radius: 60px 60px 15px 15px;
+  margin-left: 25px;
+  margin-top: 250px;
+  -webkit-animation: chiziq6 0.65s linear infinite;
+          animation: chiziq6 0.65s linear infinite;
+}
+
+@-webkit-keyframes chiziq6 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-40px);
+  }
+}
+
+@keyframes chiziq6 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-40px);
+  }
+}
+/*ikkinci end */
+/*ucinci start*/
+.ucinci {
+  width: 220px;
+  height: 600px;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  -webkit-animation: ucinci 0.7s linear infinite;
+          animation: ucinci 0.7s linear infinite;
+}
+
+@-webkit-keyframes ucinci {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-40px);
+    height: 520px;
+  }
+}
+
+@keyframes ucinci {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-40px);
+    height: 520px;
+  }
+}
+.chiziq7 {
+  width: 120px;
+  height: 10px;
+  background-color: blue;
+  margin-left: 50px;
+  margin-top: 35px;
+  border-radius: 15px;
+}
+
+.chiziq9 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  border-radius: 60px 60px 15px 15px;
+  margin-left: 35px;
+  margin-top: 320px;
+  -webkit-animation: chiziq9 0.7s linear infinite;
+          animation: chiziq9 0.7s linear infinite;
+}
+
+@-webkit-keyframes chiziq9 {
+  to {
+    transform: translateY(-60px);
+  }
+}
+
+@keyframes chiziq9 {
+  to {
+    transform: translateY(-60px);
+  }
+}
+/*ucinci end*/
+/*tortinci start */
+.tortinci {
+  width: 220px;
+  height: 550px;
+  border-radius: 50px;
+  margin-top: 40px;
+  margin-left: 15px;
+  background-color: white;
+  -webkit-animation: tortinci 0.75s linear infinite;
+          animation: tortinci 0.75s linear infinite;
+}
+
+@-webkit-keyframes tortinci {
+  to {
+    transform: translateY(-70px);
+    height: 500px;
+  }
+}
+
+@keyframes tortinci {
+  to {
+    transform: translateY(-70px);
+    height: 500px;
+  }
+}
+.chiziq10 {
+  background-color: blue;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 25px;
+  width: 120px;
+  height: 10px;
+}
+
+.chiziq12 {
+  background-color: blue;
+  border-radius: 60px 60px 15px 15px;
+  width: 150px;
+  height: 150px;
+  margin-left: 35px;
+  margin-top: 300px;
+  -webkit-animation: chiziq12 0.75s linear infinite;
+          animation: chiziq12 0.75s linear infinite;
+}
+
+@-webkit-keyframes chiziq12 {
+  to {
+    transform: translateY(-50px);
+  }
+}
+
+@keyframes chiziq12 {
+  to {
+    transform: translateY(-50px);
+  }
+}
+/*tortinci end */
+/*bewinci start*/
+.bewinci {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px 100px 100px 10px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 150px;
+  -webkit-animation: bewinci 0.8s linear infinite;
+          animation: bewinci 0.8s linear infinite;
+}
+
+@-webkit-keyframes bewinci {
+  to {
+    transform: translateY(-70px);
+  }
+}
+
+@keyframes bewinci {
+  to {
+    transform: translateY(-70px);
+  }
+}/*# sourceMappingURL=main.css.map */
